@@ -1,0 +1,34 @@
+Mime-Version: 1.0
+Content-Base: https://online-bloknot.ru/
+Content-Type: Multipart/related; boundary="NEXT.ITEM-BOUNDARY";type="text/html"
+
+--NEXT.ITEM-BOUNDARY
+Content-Type: text/html; charset="utf-8"
+Content-Location: https://online-bloknot.ru/
+
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" 
+xmlns:w="urn:schemas-microsoft-com:office:word" 
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+
+</style>
+</head>
+<body><div style="font-family:Calibri,sans-serif;font-size:11pt;"><p>1.&nbsp;Создать файл с названием модуля .py</p><p><strong>-esse.py</strong></p><p>2. Если требуется добавить модуль в проект. Необходимо:</p><p>2.1. Добавить сам файл с кодом в структуру&nbsp;проекта</p><p>2.2. Импортировать&nbsp;</p><p>&nbsp;</p><p>Учесть что есть необходимые библиотеки. Для этого используем новый файл как точку входа, так как написали в нем вариант для тестирования.</p><p>Наличие модуля определяется коммандой:</p><p>&nbsp;</p><p><strong>pip show ИМЯ_МОДУЛЯ</strong></p><p>&nbsp;</p><p>Если получаем&nbsp;ошибку <strong>ModuleNotFound</strong>, пытаемся установить в терминале:</p><p>&nbsp;</p><p><strong>pip install ИМЯ_МОДУЛЯ</strong></p><p>&nbsp;</p><p># Наприме, что мы устанавливали на Colab<br>pip install langchain-gigachat<br>pip install -U langchain-community<br>pip install pymorphy3<br>pip install reportlab<br>#</p><p>&nbsp;</p><p>общая папка проекта</p><p>- main.py</p><p>- файл 1</p><p>-&nbsp;файл n</p><p>- esse.py</p><p>&nbsp;</p><p>из main.py</p><p># отдельные функции</p><p>from esse import &lt;нужную функцию/ии&gt;</p><p># весь файл</p><p>from esse import *</p><p>&nbsp;</p><p>&nbsp;</p><p>from esse.py import&nbsp;giga_api, dia_word, my_report<br>&nbsp;</p><p>auth_key =&nbsp;open('gpt_api.txt').read()</p><p>#<strong>1 арг - инструкция, 2 арг - эссе, 3 арг - ключ</strong></p><p>answer = giga_api(msg_sys,msg_hum,<strong>auth_key</strong>)</p><p>answer = giga_api(msg_sys,msg_hum,<strong>open('gpt_api.txt').read()</strong>)</p><p>&nbsp;</p></div></body></html>
+--NEXT.ITEM-BOUNDARY--

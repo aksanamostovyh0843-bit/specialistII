@@ -1,0 +1,34 @@
+Mime-Version: 1.0
+Content-Base: https://online-bloknot.ru/
+Content-Type: Multipart/related; boundary="NEXT.ITEM-BOUNDARY";type="text/html"
+
+--NEXT.ITEM-BOUNDARY
+Content-Type: text/html; charset="utf-8"
+Content-Location: https://online-bloknot.ru/
+
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" 
+xmlns:w="urn:schemas-microsoft-com:office:word" 
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+
+</style>
+</head>
+<body><div style="font-family:Calibri,sans-serif;font-size:11pt;"><p>Отчет</p><p>&nbsp;</p><p>На данный момент:</p><p>Есть блокнот с разработкой и как результат <strong>программный модуль</strong></p><p>&nbsp;</p><p><strong>Порядок выполнения:</strong></p><p>&nbsp;</p><p><strong>Цель. Создание системы, способной&nbsp;<br>оценивать учебное задание учащихся по заданным&nbsp;<br>критериям</strong></p><p>1. Краткий обзор предметной области (техн. программирования, LLM, способы решения подобных задач)</p><p>2. Определились с критериями оценивания</p><p>3. Протестировали запросы к LLM GigaChat</p><p>4. Разработали и реализовали программно алгоритмы для решения поставленной задачи</p><p>5. Протестировали полученную программу</p><p>6. Собрали полученный код в отдельный модуль</p><p>&nbsp;</p><p>Была разработана система автоматической проверки учебных заданий с использованием машинного обучения, позволяющая автоматизировать процесс оценки и обеспечить более быструю обратную связь студентам. Проведенные тесты показали перспективность использования данной системы в образовательном процессе.</p></div></body></html>
+--NEXT.ITEM-BOUNDARY--
